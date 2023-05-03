@@ -24,10 +24,10 @@ public class Homecontroller {
 		return "ok";
 		
 	}
-	@GetMapping("/getdata/{sid}")
-public String m2(@PathVariable("sid") int s) {
+// 	@GetMapping("/getdata/{sid}")
+// public String m2(@PathVariable("sid") int s) {
 		
-		return  ss.getdata(s);
+// 		return  ss.getdata(s);
 	
 	
 }
